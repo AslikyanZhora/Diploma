@@ -1,0 +1,10 @@
+input a;
+input b;
+input c;
+input d;
+wire x;
+and (x,a,b,c);
+wire y;
+or (y,x,a);
+output o;
+xor (o,d,y);
